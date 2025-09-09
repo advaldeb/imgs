@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
   %% LAYERS
   subgraph UX[Experiencia (Front)]
@@ -107,3 +108,4 @@ flowchart TB
   OPS --- DATA
   OPS --- AI
   OPS --- SEC
+```
