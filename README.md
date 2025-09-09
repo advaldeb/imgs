@@ -1,11 +1,11 @@
 ```mermaid
 flowchart TB
   %% LAYERS
-  subgraph UX[Experiencia (Front)]
-    A1[Portal Web Marca Blanca\nNext.js/Flutter Web]
-    A2[App Móvil Ligera\nFlutter]
-    A3[Widget Embebible\npara sitios de clientes]
-    A4[Centro de Ayuda / Chat\nBot + FAQ]
+  subgraph "UX[Experiencia (Front)]"
+    A1["Portal Web Marca Blanca\nNext.js/Flutter Web"]
+    A2["App Móvil Ligera\nFlutter"]
+    A3["Widget Embebible\npara sitios de clientes"]
+    A4["Centro de Ayuda / Chat\nBot + FAQ"]
   end
 
   subgraph INTEG[Integración & Mensajería]
