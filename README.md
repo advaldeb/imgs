@@ -8,11 +8,11 @@ flowchart TB
     A4["Centro de Ayuda / Chat\nBot + FAQ"]
   end
 
-  subgraph INTEG[Integración & Mensajería]
-    I1[API Gateway / BFF\nGraphQL + REST]
-    I2[Webhooks & Event Bridge\n(Stripe/MercadoPago/WhatsApp)]
-    I3[Mensajería Externa\nWhatsApp/Telegram/Email/SMS]
-    I4[Firma Digital / ID\nOpcional]
+  subgraph "INTEG[Integración & Mensajería]"
+    I1["API Gateway / BFF\nGraphQL + REST"]
+    I2["Webhooks & Event Bridge\n(Stripe/MercadoPago/WhatsApp)"]
+    I3["Mensajería Externa\nWhatsApp/Telegram/Email/SMS"]
+    I4["Firma Digital / ID\nOpcional"]
   end
 
   subgraph APP[Servicios de Aplicación (SaaS Multi-Tenant)]
